@@ -1,0 +1,17 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "testFiles": [
+    "**/**/*.feature"
+  ],
+  "video": false,
+  "viewportHeight": 900,
+  "viewportWidth": 1440,
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  },
+  "experimentalStudio": true,
+  "env": {
+    "TAGS": "not @wip"
+  }
+}
