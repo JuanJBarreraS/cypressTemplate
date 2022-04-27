@@ -1,0 +1,45 @@
+{
+  "folders": [
+    {
+      "name": "automation",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": { // Para no listar archivos/directorios en vscode
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/node_modules": true
+    },
+    "javascript.format.enable": false, // desactivar el formatter actual
+    "[javascript]": { //Cambia el js formatter al de la extensión standard
+      "editor.defaultFormatter": "standard.vscode-standard"
+    },
+    "standard.enable": true,
+    "standard.autoFixOnSave": true,
+    "standard.engine": "standard",
+    "standard.enableGlobally": true,
+    "standard.usePackageJson": true,
+    "standard.validate": [
+      "javascript"
+    ],
+    "standard.options": {
+      "ignore": [
+        "node_modules/**"
+      ]
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "alexkrechik.cucumberautocomplete",
+      "standard.vscode-standard"
+    ],
+    "unwantedRecommendations": [
+      "esbenp.prettier-vscode"
+    ]
+  }
+}
