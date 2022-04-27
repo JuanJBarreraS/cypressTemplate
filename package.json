@@ -1,0 +1,24 @@
+{
+  "name": "cypress-template",
+  "version": "1.0.0",
+  "repository": "git@github.com:JuanJBarreraS/cypressTemplate.git",
+  "author": "JuanJBarreraS <jbarrera@hellobuild.co>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "install:fresh": "yarn add -D cypress-cucumber-preprocessor standard && yarn add cypress",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "standard": "standard",
+    "standard:fix": "standard --fix"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "standard": {
+    "globals": [
+      "Cypress",
+      "cy"
+    ]
+  }
+}
