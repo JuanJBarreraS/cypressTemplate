@@ -1,0 +1,7 @@
+cypress/videos
+cypress/screenshots
+node_modules
+**/.DS_Store
+package-lock.json
+yarn.lock
+cypress/downloads/**
