@@ -1,0 +1,14 @@
+{
+  "include": [
+    "./node_modules/cypress",
+    "cypress/**/*.js"
+  ],
+  "exclude": [
+    "./node_modules/**"
+  ],
+  "compilerOptions": {
+    "types": [
+      "Cypress"
+    ]
+  }
+}
