@@ -7,10 +7,10 @@ Feature: Login
     When When example
     Then Then example
 
-  # use at least one tag that describes the purpose of the scenario to define the folder name inside scenario folder
+  # use at least one tag that describe the purpose of the scenario to define the folder name inside scenario folder
   # use @wip to mark scenarios as work in progress
   # optional, use @JIRA-ID to link to JIRA HU
-  @userTypesHistUserNameAndPassword
+  @userTypesHisUserNameAndPassword
   @wip
   Scenario: User types his username and password
     Given the user is in the sign page
